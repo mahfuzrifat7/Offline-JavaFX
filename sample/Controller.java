@@ -56,7 +56,7 @@ public class Controller implements Initializable {
         //Read through file and find the words
         while (scr.hasNext()) {
 
-            String nextWord = scr.next();
+            String nextWord = scr.next().toLowerCase();
 
             //Determine if the word is in the ArrayList
             if (wordList.contains(nextWord)) {
