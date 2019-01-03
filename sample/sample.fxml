@@ -2,13 +2,12 @@
 
 <?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
-<?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="650.0" style="-fx-background-color: #202020;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
-        <Button fx:id="button2" layoutX="261.0" layoutY="197.0" mnemonicParsing="false" onAction="#show" text="Show Frequency" />
         <Button fx:id="button1" layoutX="277.0" layoutY="144.0" mnemonicParsing="false" onAction="#chooseFile" text="Select a File" />
+        <Button fx:id="button2" layoutX="261.0" layoutY="197.0" mnemonicParsing="false" onAction="#show" text="Show Frequency" />
         <Pane layoutX="197.0" layoutY="271.0" prefHeight="200.0" prefWidth="258.0">
             <children>
                 <TableView fx:id="tableView" layoutX="-1.0" prefHeight="200.0" prefWidth="260.0">
